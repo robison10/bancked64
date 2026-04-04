@@ -1,7 +1,12 @@
 {
-  "dependencies": {
-    "discord.js": "^14.25.1",
-    "dotenv": "^17.2.3",
-    "mongodb": "^7.0.0"
-  }
+  "main": "bin/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/index.js",
+    "dev": "ts-node Source/index.ts"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  ...
 }
