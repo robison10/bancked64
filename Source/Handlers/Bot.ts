@@ -175,7 +175,7 @@ function getEmoteNames(emoteIds: number[]): string {
 
 async function setup() {
   try {
-await Rest.put(Routes.applicationGuildCommands("1489071452920610997", "1489071452920610997"), {
+await Rest.put(Routes.applicationGuildCommands("1489071452920610997", "1489761372257521895"), {
       body: Commands,
     });
     msg("commands ready");
